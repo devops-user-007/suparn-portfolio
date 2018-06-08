@@ -1,0 +1,27 @@
+{
+  "name": "whoami",
+  "description": "The site contains information about me",
+  "main": "index.js",
+  "authors": [
+    "Suparn Badwaik"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "suparn",
+    "badwaik",
+    "profile",
+    "resume",
+    "cv",
+    "job",
+    "proffesional"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
