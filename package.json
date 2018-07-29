@@ -18,5 +18,13 @@
     "proffesional"
   ],
   "author": "Suparn Badwaik",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suparnb/suparn-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suparnb/suparn-portfolio/issues"
+  },
+  "homepage": "https://github.com/suparnb/suparn-portfolio#readme"
 }

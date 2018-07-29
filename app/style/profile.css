@@ -5,13 +5,23 @@ body, html {
     color: #777;
   }
   
-  .bg-mypic, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bg-mypic, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-awards, .bgimg-about {
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .bgimg-awards {
+    background-image: url("../img/sample/award.jpg");
+    min-height: 50%;
+  }
+
+  .bgimg-about {
+    background-image: url("../img/sample/about.png");
+    min-height: 50%;
   }
   
   .bg-mypic {
@@ -20,18 +30,18 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("../img/sample/3.jpg");
-    min-height: 90%;
+    background-image: url("../img/sample/6.jpg");
+    min-height: 50%;
   }
   
   .bgimg-3 {
-    background-image: url("../img/sample/1.jpg");
-    min-height: 700px;
+    background-image: url("../img/sample/9.jpg");
+    min-height: 50%;
   }
   
   .bgimg-4 {
-    background-image: url("../img/sample/20.jpg");
-    min-height: 100%;
+    background-image: url("../img/sample/8.jpg");
+    min-height: 50%;
   }
   
   .caption {
@@ -60,7 +70,7 @@ body, html {
   
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
-      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-awards  {
           background-attachment: scroll;
       }
   }
