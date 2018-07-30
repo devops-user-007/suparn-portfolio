@@ -5,7 +5,7 @@ body, html {
     color: #777;
   }
   
-  .bg-mypic, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-awards, .bgimg-about {
+  .bg-mypic, .bgimg-professional, .bgimg-skillset, .bgimg-thanks, .bgimg-awards, .bgimg-about {
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
@@ -20,27 +20,27 @@ body, html {
   }
 
   .bgimg-about {
-    background-image: url("../img/sample/about.png");
+    background-image: url("../img/sample/hobby.jpg");
     min-height: 50%;
   }
   
   .bg-mypic {
-    background-image: url("../img/sup1.jpg");
+    background-image: url("../img/sup.jpg");
     min-height: 100%;
   }
   
-  .bgimg-2 {
-    background-image: url("../img/sample/6.jpg");
+  .bgimg-professional {
+    background-image: url("../img/sample/professional.jpg");
     min-height: 50%;
   }
   
-  .bgimg-3 {
-    background-image: url("../img/sample/9.jpg");
+  .bgimg-skillset {
+    background-image: url("../img/sample/skillset.jpg");
     min-height: 50%;
   }
   
-  .bgimg-4 {
-    background-image: url("../img/sample/8.jpg");
+  .bgimg-thanks {
+    background-image: url("../img/sample/thanks.jpg");
     min-height: 50%;
   }
   
