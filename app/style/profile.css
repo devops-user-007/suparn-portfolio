@@ -43,6 +43,14 @@ body, html {
     background-image: url("../img/sample/thanks.jpg");
     min-height: 50%;
   }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
   
   .caption {
     position: absolute;
